@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Readex Pro';
+}
+
+a {
+    text-decoration: none;
+    color: white !important;
+    font-weight: 500;
+}
+
+a:hover{
+    color: rgb(255, 75, 75) !important;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+hr {
+    margin-top: 0px;
+    margin-bottom: 5%;
+}
+
+
+
+
+.card {
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out; 
+}
+
+.card:hover {
+    transform: scale(1.02); 
+}
+
+.card img {
+    width: 70%; 
+    border-radius: 10px;
+}
+
+.card .titre {
+    color: white;
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.card p {
+    color: #ab9c9c;
+    margin-top: 10px;
+}
+
+.card button {
+    background-color: rgb(19, 23, 32);
+    border: 1px solid white;
+    padding: 5px 10px; 
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.2s; 
+}
+
+.card button:hover {
+    background-color: rgb(255, 50, 50);
+}
+
+
+
+
+#MainMenu {
+    visibility: hidden;
+}
+
+footer {
+    visibility: hidden;
+}
+
+header {
+    visibility: hidden;
+}
