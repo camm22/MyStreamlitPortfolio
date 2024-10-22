@@ -57,7 +57,7 @@ with col2:
 # --- CONTACTS ---
 SOCIAL_MEDIA = {
     "GitHub": "https://github.com/camm22",
-    "LinkedIn": "https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile",
+    "LinkedIn": "https://www.linkedin.com/in/camille-bordes-140948221/",
     "LeetCode": "https://leetcode.com/u/Camm2/",
     "Kaggle": "https://www.kaggle.com/camillebordes"
 }
