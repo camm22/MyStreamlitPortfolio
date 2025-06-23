@@ -32,9 +32,11 @@ profile_pic = Image.open(profile_pic)
 # --- PROFILE SECTION ---
 NAME = "Camille Bordes"
 DESCRIPTION = """
-Hey I'm Camille, currently in my 2nd year of engineering studies (M1) at EFREI Paris. 
-I'm studying in the Data & AI major and will soon be joining the startup Ormex as an artificial intelligence intern.
-On this site, you can access my CV, contact details and all my projects. Don't hesitate to contact me !
+Hi, I’m Camille, a Master’s student entering my final year (M2) at EFREI Paris, specializing in Data & Artificial Intelligence.
+I'm passionate about building intelligent algorithms that turn data into insights, especially in the fields of computer vision and natural language processing.
+On this site, you’ll find my resume, contact information, and a selection of my academic and personal projects.
+Feel free to reach out. 
+I'm always open to new opportunities and collaborations!
 """
 EMAIL = "camille.bordes@efrei.net"
 
@@ -85,6 +87,16 @@ def img_to_html(img_path):
 
 # --- PROJECTS ---
 PROJECTS = [
+    {
+    "title": "AI HR Chatbot – Microsoft Hackathon",
+    "description": """
+        Participated in a hackathon organized by Microsoft and EFREI Paris, focused on developing an intelligent HR chatbot using Azure OpenAI services.
+        Implemented a Retrieval-Augmented Generation (RAG) pipeline to answer employees' HR-related questions based on internal documentation.
+        Leveraged Azure Cognitive Search and OpenAI models to build a scalable and context-aware solution.
+    """,
+    "image": current_assets / "hackathon.png",
+    "link": "https://github.com/camm22/RH-Bot-Hackathon"
+    },
     {
         "title": "Machine Learning Project",
         "description": """
