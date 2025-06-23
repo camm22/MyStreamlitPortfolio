@@ -7,7 +7,7 @@ import base64
 # --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
-resume_file = current_dir / "assets" / "CV_Camille_Bordes.pdf"
+resume_file = current_dir / "assets" / "CV-Camille-Bordes.pdf"
 profile_pic = current_dir / "assets" / "profile-pic.png"
 current_assets = current_dir / 'assets'
 
